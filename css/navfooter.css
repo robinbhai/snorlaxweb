@@ -1,0 +1,113 @@
+body{
+    background-color: #F8F1DC;
+}
+
+.navbar{
+    position: relative;
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    border-radius: 50px;
+    box-shadow:2px 2px 2px gray ;
+    
+}
+
+.logo{
+    height:50px;
+    width:50px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.home{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    float: right;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.contact{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  float: right;
+  padding-right: 10px;
+  padding-top: 9px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #0B152E;
+    }
+
+.social_logo{
+    height: 80px;
+    width: auto;
+    padding: 10px;
+
+}
+
+.space{
+    height: 90px;
+    background-color: bisque;
+    background-color: transparent;
+    border: none;
+}
+
+
+@media screen and (max-width:720px) {
+    .social_logo{
+        width: 60px;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .space{
+        height: 90px;
+        background-color: bisque;
+        display: block;
+        background-color: transparent;
+        border: none;
+    }
+}
+
+
+
+/* Adjust the positioning of the horizontal menu */
+.horizontal-menu {
+    position: relative; 
+    margin-top: 20px; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+.horizontal-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal-menu li {
+    display: inline-block; 
+    margin: 0 10px; 
+}
+
+.horizontal-menu li a {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(51, 51, 51, 0.6); 
+    padding: 8px 16px; 
+    border-radius: 4px; 
+}
+
+.horizontal-menu li a:hover {
+    text-decoration: underline;
+}
+
+
